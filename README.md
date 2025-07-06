@@ -6,23 +6,20 @@
 It will create an instance 
 What it is:
 Cloud Data Fusion helps you move, clean, combine, and load data from one place to another easily
-A fully managed, GUI-based data integration tool built on CDAP (Cask Data Application Platform). Think of it as a drag-and-drop ETL/ELT platform.
-Runs the pipeline to process and move the data
-Monitors pipeline execution and gives logs
+A fully managed, GUI-based data integration tool built on CDAP (Cask Data Application Platform). 
+Think of it as a drag-and-drop ETL/ELT platform.
+Runs the pipeline to process and move the data, Monitors pipeline execution and gives logs
 Use cases:
-
 Building ETL pipelines without writing much code.
-
 Ingesting data from multiple sources (on-prem, SaaS, GCS, BigQuery, etc.).
-
+No code ETL platform provided by google
 Data wrangling, cleansing, and transformation for analytics.
 ![image](https://github.com/user-attachments/assets/3cf8f2b2-af91-47b0-ae9e-f9f98c8c5813)
 ![image](https://github.com/user-attachments/assets/0213f0a1-8f54-4f8b-8b51-58094fc4a96b)
 
 Ideal for business analysts or data engineers who prefer low-code/no-code tools.
-
 Migrating legacy ETL jobs to GCP with minimal re-coding.
-
+After all the transformations in CSV file, need to create an pipeline --> batch pipeline  ---> add sink as bigquery 
 Example:
 Ingesting data from an on-premise Oracle DB, transforming it, and loading it into BigQuery using a visual pipeline.
 
